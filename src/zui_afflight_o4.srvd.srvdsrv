@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_AFFLIGHT'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_AFFLIGHT'
+  }
+}
+define service ZUI_AFFLIGHT_O4 provider contracts odata_v4_ui {
+  expose ZC_AFFLIGHT as Flight;
+}

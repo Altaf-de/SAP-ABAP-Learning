@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZC_AFFLIGHT'
+@MappingRole: true
+define role ZC_AFFLIGHT {
+  grant select on ZC_AFFLIGHT
+  where INHERITING CONDITIONS FROM ENTITY ZR_AFFLIGHT REPLACING { ROOT WITH _BaseEntity };
+}
